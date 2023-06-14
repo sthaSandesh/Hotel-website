@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Hero() {
+export function Hero() {
   return (
     <div>
       <div className="hero min-h-screen bg-[url(/src/assets/Background.jpg)] ">

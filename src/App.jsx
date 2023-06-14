@@ -1,14 +1,9 @@
 import Footer from "./component/Footer/Footer"
-import About from "./component/Hero/About"
-import Galleries from "./component/Hero/Galleries"
-import Wedding from "./component/Hero/Wedding"
-import Hero from "./component/Hero/hero"
 import Navbar from "./component/Navbar"
+import { Hero , Galleries , Wedding , About } from "./component/Hero"
 
 
 function App() {
-  
-
   return (
     <div>
       <Navbar />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Wedding() {
+export  function Wedding() {
   return (
     <div>
       <div className="hero min-h-screen bg-[url(/src/assets/KhaneTable.jpg)]" >
