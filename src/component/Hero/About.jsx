@@ -4,7 +4,7 @@ export default function About() {
         <div>
             <div className="hero min-h-screen bg-white">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src="src/assets/Bed.jpg" className="w-[2000px] rounded-lg shadow-2xl" />
+                    <img src="/src/assets/Bed.jpg" className="w-[2000px] rounded-lg shadow-2xl" />
                     <div>
                         <div className='flex gap-4 font-bold text-black text-4xl'>
                             <h1>About </h1>
