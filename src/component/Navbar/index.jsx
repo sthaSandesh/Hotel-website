@@ -1,4 +1,14 @@
 import React from 'react'
+import { NavLink } from './Navlink'
+
+const PageRoutes = [
+  { name: 'Home', link: '/' },
+  { name: 'Rooms & Suites', link: '/rooms-and-suites' },
+  { name: 'Facilities', link: '/facilities' },
+  { name: 'Contacts', link: '/contacts' },
+  { name: 'Offers', link: '/offers' },
+  { name: 'Events', link: '/events' }
+] 
 
 export default function Navbar() {
   return (
@@ -8,12 +18,9 @@ export default function Navbar() {
         </div>
         <div className='flex-none text-black  font-semibold'>
             <ul className='menu menu-horizontal gap-10'>
-                <li className='hover:text-purple-500 cursor-pointer'>Home</li>
-                <li className='hover:text-purple-500 cursor-pointer'>Rooms & Suites</li>
-                <li className='hover:text-purple-500 cursor-pointer'>Facilites</li>
-                <li className='hover:text-purple-500 cursor-pointer'>Contacts</li>
-                <li className='hover:text-purple-500 cursor-pointer'>Offers</li>
-                <li className='hover:text-purple-500 cursor-pointer'>Events</li>
+            {PageRoutes.map((link) => (
+                        <NavLink key={link.name} label={link.name} link={link.link} />
+                    ))} 
             </ul>
         </div>
 
