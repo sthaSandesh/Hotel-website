@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className='flex-1'>
             <h1 className='font-bold text-purple-500 text-2xl normal-case cursor-pointer'>Hotel Lunar</h1>
         </div>
-        <div className='flex-none text-black  font-semibold'>
+        <div className='flex-none text-black  font-bold'>
             <ul className='menu menu-horizontal gap-10'>
             {PageRoutes.map((link) => (
                         <NavLink key={link.name} label={link.name} link={link.link} />

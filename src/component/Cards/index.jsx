@@ -7,50 +7,50 @@ export default function Cards() {
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={Img1} alt="Shoes" width={384} /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
+                    <h2 className="card-title">Rooms</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500">Book Now</button>
+                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500 font-bold">Book Now</button>
                     </div>
                 </div>
             </div>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={Img2} alt="Shoes" width={384} /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
+                    <h2 className="card-title">Rooms</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500">Book Now</button>
+                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500 font-bold">Book Now</button>
                     </div>
                 </div>
             </div>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={Img3} alt="Shoes" width={384} / ></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
+                    <h2 className="card-title">Rooms</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500">Book Now</button>
+                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500 font-bold">Book Now</button>
                     </div>
                 </div>
             </div>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={Img1}alt="Shoes" width={384} /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
+                    <h2 className="card-title">Rooms</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500">Book Now</button>
+                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500 font-bold">Book Now</button>
                     </div>
                 </div>
             </div>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={Img2}alt="Shoes" width={384} /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
+                    <h2 className="card-title">Rooms</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500">Book Now</button>
+                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500 font-bold">Book Now</button>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ export default function Cards() {
                     <h2 className="card-title">Shoes!</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500">Book Now</button>
+                        <button className="btn btn-primary bg-purple-500 hover:bg-purple-500 font-bold">Book Now</button>
                     </div>
                 </div>
             </div>
