@@ -6,7 +6,7 @@ import Room from "./pages/Room"
 import NotFound from "./pages/404"
 
 
-//npm install raviger
+// npm install raviger
 const route = {
   '/'  : ()=> <HomePage />,
   '/rooms-and-suites' : ()=> <Room/>,
