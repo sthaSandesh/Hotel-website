@@ -4,12 +4,14 @@ import HomePage from "./pages/HomePage"
 import { useRoutes } from "raviger"
 import Room from "./pages/Room"
 import NotFound from "./pages/404"
+import ContactPage from "./pages/ContactPage"
 
 
 // npm install raviger
 const route = {
   '/'  : ()=> <HomePage />,
   '/rooms-and-suites' : ()=> <Room/>,
+  '/contacts' : ()=> <ContactPage />,
   '*' : ()=> <NotFound />
 }
 function App() {
